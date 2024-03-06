@@ -12,6 +12,10 @@ app.get('/twitter', (req, res) => {
     res.send('yoyoyokv')
 })
 
+app.get('/yoyo', (reg, res) => {
+    res.send('yoyoyo honey')
+})
+
 app.get('/login', (req, res) => {
     res.send('<h1>keriogj oerjgioetj eoigjoiewjg weo5jhwioe</h1>')
 })
